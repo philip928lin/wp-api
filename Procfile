@@ -1,0 +1,1 @@
+web: gunicorn pictures.wsgi --pythonpath=pictures --log-file -
