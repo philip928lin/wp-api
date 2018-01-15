@@ -25,7 +25,7 @@ SECRET_KEY = '1szrg*jyiw_3n!=z0&&28j!*&r@hu5&qg6qcm*qeylq13e)gxn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['wp-api-staging.herokuapp.com','wp-api-prod.herokuapp.com']
 
 
 # Application definition
