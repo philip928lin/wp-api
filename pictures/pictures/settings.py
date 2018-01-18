@@ -25,7 +25,7 @@ SECRET_KEY = '1szrg*jyiw_3n!=z0&&28j!*&r@hu5&qg6qcm*qeylq13e)gxn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['wp-api-staging.herokuapp.com','wp-api-prod.herokuapp.com']
+ALLOWED_HOSTS = ['*','wp-api-staging.herokuapp.com','wp-api-prod.herokuapp.com']
 
 
 # Application definition
@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Taipei'
 
 USE_I18N = True
 
